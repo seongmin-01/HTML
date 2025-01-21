@@ -1,0 +1,150 @@
+/* 1. h1 태그를 선택하세요. */
+h1 {
+    color: #4a90e2;
+}
+
+/* 2. header 태그를 선택하세요 */
+header {
+    background-color: #f5f5f5;
+}
+
+/* 3. 클래스 이름이 highlight인 span 요소를 선택하세요.*/
+.highlight {
+    color: #f39c12;
+}
+
+/* 4. nav 요소 안의 모든 a 요소를 선택하세요. */
+nav a{
+    color: #e74c3c;
+}
+
+/* 5. 클래스 이름이 intro인 section 요소를 선택하세요.*/
+.intro {
+    background-color: #e8f4f8;
+}
+
+/* 6. 클래스 이름이 title인 모든 h2 요소를 선택하세요.*/
+.title {
+    color: #27ae60;
+}
+
+/* 7. 첫 번째 article 클래스를 가진 div 요소를 선택하세요.*/
+.content > .article:nth-child(1) {
+    background-color: #bdc3c7;
+}
+
+/* 8. 두 번째 article 클래스를 가진 div 요소를 선택하세요.*/
+.article:nth-of-type(2) {
+    background-color: #fad7a0;
+}
+
+/* 9. article 클래스를 가진 div 요소 내의 p 요소를 선택하세요.*/
+.article p {
+    color: #9b59b6;
+}
+
+section {
+    border: 1px dashed #e74c3c;
+}
+
+/* 11. footer 요소 안의 모든 a 요소를 선택하세요.*/
+footer a {
+    color: #34495e;
+}
+
+/* 12. header 요소 안의 첫 번째 li 요소를 선택하세요.*/
+header li:first-child {
+    border: 1px solid #111;
+}
+
+/* 13. header 요소의 안의 마지막 li 요소를 선택하세요.*/
+
+header li:last-child{
+    border: 1px solid #111;
+}
+
+/* 14. header 자식 nav 자식 ul 자식 요소의 모든 li 요소를 선택하세요. */
+header > nav > ul > li {
+    background-color: #d5dbdb;
+}
+
+/* 15. header 의 자식 nav의 자식 ul요소의 첫 번째 a 요소를 선택하세요. */
+header > nav > ul > li:nth-child(1) > a {
+    color: #00f;
+}
+
+/* 16. header의 자식 nav의 자식 ul 요소의 두 번째 a 요소를 선택하세요.*/
+header > nav > ul > li:nth-child(2) > a {
+    color: #0f0;
+}
+
+/* 17. body 요소의 직계 자식 section 요소를 선택하세요.*/
+body > section {
+    border: 1px solid #bdc3c7;
+}
+
+/* 18. 클래스 이름이 content인 section 요소 내의 h2 요소를 선택하세요.*/
+.content h2{
+    color: #1f618d;
+}
+
+/* 19. header 요소 내의 모든 자손 li 요소를 선택하세요. */
+header li {
+    list-style-type: square;
+}
+
+/* 20. footer 요소 내의 첫 번째 a 요소를 선택하세요.*/
+footer a:first-of-type {
+    color: #27ae60;
+}
+
+/* 21. section 요소 중 첫 번째 요소를 선택하세요*/
+section:first-of-type {
+    border: 2px dashed #16a085;
+} 
+
+/* 22. section 요소 중 마지막 요소를 선택하세요. */
+section:last-of-type {
+    background-color: #bbe1ee;
+}
+
+/* 23. p요소 중 첫 번째 요소를 선택하세요.*/
+p:nth-of-type(1){
+    color: #d35400;
+}
+
+/* 24. p 요소 중 마지막 요소를 선택하세요 */
+p:nth-last-of-type(1) {
+    font-style: italic;
+    color: #2980b9;
+}
+
+/* 25. title 클래스가 있는 h2 요소의 형제 요소를 선택하세요.*/
+.title + p {
+    background-color: #e8f4f8;
+}
+
+/* 26. title 클래스가 있는 h2 요소의 모든 형제 요소를 선택하세요.*/
+.title ~ * {
+    color: #8e44ad;
+}
+
+/* 27. h2 요소 중 첫 번째 요소를 선택하세요.*/
+h2:nth-of-type(1) {
+    color: #e67e22;
+}
+
+/* 28.  ol 요소의 자식 li 요소 중 홀수 번째 요소를 선택하세요.*/
+ol > li:nth-child(2n+1){
+    color: orange;
+}
+
+/* 29. 클래스 이름이 intro인 요소를 마우스호버일 때 선택하세요.*/
+.intro:hover {
+    background-color: #e74c3c;
+}
+
+/* 30. footer 요소의 자식 마지막 번째 a 요소 끝의 가상 요소를 선택하세요.*/
+footer > a:last-child::after {
+    content: '©';
+}
