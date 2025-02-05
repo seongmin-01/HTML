@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    font: normal 12px '돋움';
+    font: normal 12px 'noto sans korean';
 }
 
 ul, ol {list-style: none;}
@@ -29,16 +29,7 @@ img {
     overflow: clip;
 }
 
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    unicode-bidi: isolate;
-}
+
 
 li {
     display: list-item;
@@ -52,6 +43,11 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+nav {
+    display: block;
     unicode-bidi: isolate;
 }
 
@@ -421,15 +417,11 @@ main > .go div:nth-child(5) {
 
 main > .go div {
     float: left;
-    border: 1px solid gray;
-    box-sizing: border-box;
 }
 
 main > .vegetable ul {
     width: 100%;
     height: 312px;
-    border: 1px solid grey;
-    box-sizing: border-box;
     overflow: hidden;
 }
 
@@ -437,15 +429,12 @@ main > .vegetable ul > li {
     float: left;
     width: 25%;
     height: 100%;
-    border: 1px solid pink;
-    box-sizing: border-box;
+   
 }
 
 main > .seafood ul {
     width: 100%;
     height: 312px;
-    border: 1px solid gray;
-    box-sizing: border-box;
     overflow: hidden;
 }
 
@@ -453,8 +442,7 @@ main > .seafood ul > li {
     float: left;
     width: 25%;
     height: 100%;
-    border: 1px solid pink;
-    box-sizing: border-box;
+   
 }
 
 footer {
@@ -466,8 +454,6 @@ footer {
 
 footer > div {
     width: 100%;
-    border: 1px solid green;
-    box-sizing: border-box;
 }
 
 footer > div > div {
