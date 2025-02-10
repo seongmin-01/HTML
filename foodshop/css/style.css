@@ -206,7 +206,7 @@ main > .go > article > .banner {
 main > .go > article > .banner1 {
     width: 412px;
     height: 450px;
-    background-image: url(../images/main_go_bg1.png);
+    background-image: url(/foodshop/images/main_go_bg1.png);
 }
 
 main > .go > article > .banner > a {
@@ -239,7 +239,7 @@ main > .go > article > .banner2 {
     width: 322px;
     height: 220px;
     margin-left: 11px;
-    background-image: url(../images/main_go_bg2.png);
+    background-image: url(/foodshop/images/main_go_bg2.png);
 }
 
 main > .go > article > .banner > a .title.dark {
@@ -250,7 +250,7 @@ main > .go > article > .banner3 {
     float: right;
     width: 322px;
     height: 220px;
-    background-image: url(../images/main_go_bg3.png);
+    background-image: url(/foodshop//images//main_go_bg3.png);
 }
 
 main > .go > article > .banner4 {
@@ -258,7 +258,7 @@ main > .go > article > .banner4 {
     height: 220px;
     margin-left: 11px;
     margin-top: 10px;
-    background-image: url(../images/main_go_bg4.png);
+    background-image: url(/foodshop/images/main_go_bg4.png);
 }
 
 main > .go > article > .banner5 {
@@ -266,7 +266,7 @@ main > .go > article > .banner5 {
     width: 322px;
     height: 220px;
     margin-top: 10px;
-    background-image: url(../images/main_go_bg5.png);
+    background-image: url(/foodshop/images/main_go_bg5.png);
 }
 
 main > section:nth-child(3) {
@@ -274,7 +274,7 @@ main > section:nth-child(3) {
 }
 
 main > .oneday {
-    background-image: url(../images/oneday_bg.png);
+    background-image: url(/foodshop/images/oneday_bg.png);
     background-size: cover;
     background-position: 50% center;
 }
@@ -361,7 +361,7 @@ main > section:nth-child(5) {
 }
 
 main > .premium {
-    background-image: url(../images/premium_bg.png);
+    background-image: url(/foodshop/images/premium_bg.png);
     background-size: cover;
     background-position: 50% center;
 }
