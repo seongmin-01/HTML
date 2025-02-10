@@ -1,0 +1,136 @@
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    font: normal 12px "Noto Sans KR";
+}
+
+ul, ol {list-style: none;}
+a {text-align: none; color: #111;
+text-decoration: none;}
+input, textarea {outline: none;}
+
+#wrapper {
+    width: 100%;
+    height: auto;
+}
+
+
+/* header */
+header {
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    background-image: url(../images/admin/admin_bg.jpg);
+}
+
+.hd_logo {
+    width: 170px;
+    height: 32px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+header > ul {
+    float: right;
+    width: 148.34px;
+    height: 14px;
+    margin-top: 13px;
+}
+
+header > ul >li {
+    float: left;
+    color: #FFFFFF;
+}
+/* -------------------------------------------------------------*/
+
+/* main */
+main {
+    width: 980px;
+    height: 658px;
+    margin-top: 60px;
+    margin-left: 470px;
+    margin: 0 auto;
+}
+
+aside {
+    width: 176px;
+    height: 400px;
+}
+
+.heading {
+    width: 156px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid #CCCCCC;
+    background: #e5e5e5;
+    border-radius: 20px;
+}
+
+.heading_p {
+    width: 56.2px;
+    height: 15px;
+    margin-top: 7px;
+    margin-left: 21px;
+    font-size: 14px;
+}
+
+.list {
+    width: 156px;
+    height: 234px;
+    top: 40px;
+    margin-left: 10px;
+}
+
+.list > div:nth-of-type(1) {
+    width: 124px;
+    height: 72px;
+    margin-top: 26px;
+    margin-left: 16px;
+}
+
+.list > div:nth-of-type(1) > ul {
+    width: 124px;
+    height: 44px;
+    margin-top: 28px;
+}
+
+.list > div:nth-of-type(1) > ul > li {
+    width: 124px;
+    height: 22px;
+    top: 22px;
+}
+
+.list > div:nth-of-type(2) {
+    width: 124px;
+    height: 50px;
+    margin-top: 108px;
+    margin-left: 16px;
+}
+
+.list > div:nth-of-type(2) > p {
+    width: 48.2px;
+    height: 14px;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.list > div:nth-of-type(2) > ul {
+    width: 124px;
+    height: 22px;
+    margin-top: 28px;
+}
+
+.list > div:nth-of-type(2) > ul > li > a{
+    width: 48px;
+    height: 14px;
+    margin-top: 4px;
+}
+
+.list > div:nth-of-type(3) {
+    width: 124px;
+    height: 50px;
+    margin-top: 168px;
+    margin-left: 16px;
+}
