@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: normal 12px "Noto Sans KR";
+}
+
+ul, ol {list-style: none;}
+a {text-align: none; color: #111;
+text-decoration: none;}
+input, textarea {outline: none;}
+
+#wrapper {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+header {
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    background-image: url(../images/admin/admin_bg.jpg);
+}
+
+.logo {
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+header > ul {
+    float: right;
+    width: 148.34px;
+    height: 14px;
+    padding-top: 13px;
+
+}
+
+header > ul > li {
+    float: left;
+    color: white;
+}
+
+.head {
+    width: 156px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+}
+
+.bddy {
+    width: 156px;
+    height: 234px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+aside > div:nth-child(1) > p {
+    width: 56.2px;
+    height: 15px;
+    margin-top: 7px;
+    margin-left: 21px;
+}
+
+aside > div:nth-child(2) > ul {
+    width: 124px;
+    height: 72px;
+    margin-top: 26px;
+    margin-left: 16px;
+}
+
+aside > div:nth-child(2) > ul > li {
+    width: 124px;
+    height: 44px;
+}
+
+aside > 
+
+
+
+
+
+
+
+
